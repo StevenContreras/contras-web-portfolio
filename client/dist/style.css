@@ -1,0 +1,19 @@
+body {
+  background-color: moccasin;
+}
+
+header {
+  text-align: center;
+  margin: auto;
+  width: 50%;
+  background-color: lightblue;
+  padding: 10px;
+}
+
+main {
+    text-align: center;
+    margin: auto;
+    width: 50%;
+    background-color: lightyellow;
+    padding: 10px;
+}

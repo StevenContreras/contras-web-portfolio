@@ -11,7 +11,13 @@ class App extends React.Component{
     render() {
       return (
         <div>
-          <h1>My Portfolio</h1>
+          <header>
+            <a>Home</a>
+          </header>
+          <main>
+            <h1>Steven Contreras</h1>
+            <h2>Software Engineer</h2>
+          </main>
         </div>
       )
     }
