@@ -2,8 +2,7 @@ body {
   background-color: moccasin;
 }
 
-header {
-  text-align: center;
+.row {
   margin: auto;
   width: 50%;
   background-color: lightblue;
