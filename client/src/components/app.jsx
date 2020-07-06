@@ -18,8 +18,10 @@ class App extends React.Component{
             <a class="col">Contact</a>
           </header>
           <main>
-            <h1>Steven Contreras</h1>
-            <h2>Software Engineer</h2>
+            <div>
+              <h1 class="align-middle">Steven Contreras</h1>
+              <h2>Software Engineer</h2>
+            </div>
           </main>
         </div>
       )
