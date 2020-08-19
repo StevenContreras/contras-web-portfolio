@@ -20,26 +20,26 @@ class App extends React.Component{
             </nav>
           </header>
           <main>
-            <div>
-              <h1 class="align-middle">Steven Contreras</h1>
-              <h2>Software Engineer</h2>
+            <div class="section">
+              <h1 class="h">Steven Contreras</h1>
+              <h2 class="content">Software Engineer</h2>
             </div>
-            <div>
-              <h2 class="align-middle">About</h2>
-              <p>sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <div class="section">
+              <h2 class="h">About</h2>
+              <p class="content">sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
             </div>
-            <div>
-              <h2 class="align-middle">Projects</h2>
-              <ul>
+            <div class="section">
+              <h2 class="h">Projects</h2>
+              <ul class="content">
                 <li>Coming Soon</li>
                 <li>Coming Soon</li>
                 <li>Coming Soon</li>
                 <li>Coming Soon</li>
               </ul>
             </div>
-            <div>
-              <h2 class="align-middle">Contact</h2>
-              <address>sfcontra@gmail.com</address>
+            <div class="section">
+              <h2 class="h">Contact</h2>
+              <address class="content">sfcontra@gmail.com</address>
             </div>
           </main>
           <footer>

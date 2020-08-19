@@ -2,13 +2,25 @@ body {
   background-color: darkkhaki;
 }
 
+header {
+  margin: 2px;
+
+  background-color: darksalmon;
+}
+
 .row {
   margin: auto;
   width: 50%;
-  padding: 10px;
+  padding: 2px;
   height: 5vh;
 
   background-color: darkcyan;
+}
+
+.col{
+  margin: 2px;
+
+  background-color: darkorange;
 }
 
 main {
@@ -16,16 +28,47 @@ main {
     margin: auto;
     width: 50%;
     padding-top: 5%;
-    height: 91vh;
+    height: 90vh;
 
     background-color: darkolivegreen;
 }
 
+.section {
+  padding: 1px;
+  margin: 2px;
+
+  background-color: slategray;
+}
+
+.h {
+  margin: 2px;
+
+  background-color: royalblue;
+}
+
+.content {
+  margin: 2px;
+  padding: 2px 30px;
+
+  background-color: mediumpurple;
+}
+
+li {
+  margin: 2px;
+  
+  background-color: goldenrod;
+}
+
 footer {
   text-align: center;
+  margin: 2px;
+
   background-color: indianred;
 }
 
 .cred {
   margin: 10px;
+  padding: 1px;
+
+  background-color: purple;
 }
