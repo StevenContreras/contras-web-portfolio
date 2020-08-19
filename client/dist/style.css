@@ -5,16 +5,27 @@ body {
 .row {
   margin: auto;
   width: 50%;
-  background-color: darkcyan;
   padding: 10px;
   height: 5vh;
+
+  background-color: darkcyan;
 }
 
 main {
     text-align: center;
     margin: auto;
     width: 50%;
-    background-color: darkolivegreen;
     padding-top: 30%;
-    height: 95vh;
+    height: 91vh;
+
+    background-color: darkolivegreen;
+}
+
+footer {
+  text-align: center;
+  background-color: indianred;
+}
+
+.cred {
+  margin: 10px;
 }

@@ -23,6 +23,10 @@ class App extends React.Component{
               <h2>Software Engineer</h2>
             </div>
           </main>
+          <footer>
+            <a class="cred" href="https://github.com/StevenContreras">GitHub</a>
+            <a class="cred" href="https://www.linkedin.com/in/steven-contreras-358b4a73/">LinkedIn</a>
+          </footer>
         </div>
       )
     }
