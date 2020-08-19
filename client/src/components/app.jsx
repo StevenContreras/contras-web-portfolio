@@ -18,9 +18,15 @@ class App extends React.Component{
             <a class="col">Contact</a>
           </header>
           <main>
-            <h1>Steven Contreras</h1>
-            <h2>Software Engineer</h2>
+            <div>
+              <h1 class="align-middle">Steven Contreras</h1>
+              <h2>Software Engineer</h2>
+            </div>
           </main>
+          <footer>
+            <a class="cred" href="https://github.com/StevenContreras">GitHub</a>
+            <a class="cred" href="https://www.linkedin.com/in/steven-contreras-358b4a73/">LinkedIn</a>
+          </footer>
         </div>
       )
     }
