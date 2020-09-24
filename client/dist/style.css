@@ -27,17 +27,13 @@ main {
     background-color: darkolivegreen;
 }
 
-.intro {
-  height: 100vh;
-  margin: 0 1rem 1rem;
+.section {
+  margin: 1rem;
   padding: 1px;
+  height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
-}
-
-.section {
-  padding: 1px;
 
   background-color: slategray;
 }
