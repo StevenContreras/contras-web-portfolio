@@ -22,7 +22,7 @@ main {
     text-align: center;
     margin: auto;
     width: 52vw;
-    height: 405vh;
+    height: 95vh;
 
     background-color: darkolivegreen;
 }
@@ -30,7 +30,7 @@ main {
 .section {
   margin: 1rem;
   padding: 1px;
-  height: 100vh;
+  height: 94vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
