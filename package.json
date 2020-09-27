@@ -1,12 +1,12 @@
 {
-  "name": "personel-projects",
+  "name": "personal-projects",
   "version": "1.0.0",
   "description": "Web Portfolio",
   "main": "index.js",
   "scripts": {
     "start": "nodemon server/server.js",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "react-dev": "webpack -d --watch"
+    "build": "webpack -d --watch"
   },
   "repository": {
     "type": "git",
