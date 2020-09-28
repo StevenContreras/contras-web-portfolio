@@ -18,7 +18,7 @@ class App extends React.Component {
       nav: int,
     });
   }
-
+  
   render() {
     return (
       <div className="container-fluid">
@@ -33,7 +33,7 @@ class App extends React.Component {
           }
         </main>
         <footer>
-          <a className="cred">sfcontra@gmail.com</a>
+          <a className="cred" href="mailto:sfcontra@gmail.com">sfcontra@gmail.com</a>
           <a className="cred" href="https://github.com/StevenContreras">GitHub</a>
           <a className="cred" href="https://www.linkedin.com/in/steven-contreras-358b4a73/">LinkedIn</a>
         </footer>
