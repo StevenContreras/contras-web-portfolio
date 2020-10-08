@@ -1,5 +1,8 @@
 body {
   height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background-color: #020326;
   background-image: 
     linear-gradient(
@@ -65,8 +68,8 @@ body {
       rgb(11, 2, 34) 83%,
       rgb(11, 2, 34) 84%,
       mistyrose 84%,
-      darkorange 85%,
-      orangered, 
+      rgb(255, 154, 31) 85%,
+      rgb(251, 38, 0), 
       rgb(11, 2, 34) 92%,
       darkgreen 92%,
       darkgreen 93%,
@@ -76,6 +79,14 @@ body {
       rgb(138, 8, 8) 95%,
       rgb(11, 2, 34) 95%
     );
+}
+
+.plate {
+  background-color: sienna;
+  width: 90vw;
+  height: 96vh;
+  border: 5px double saddlebrown;
+  border-radius: 50px;
 }
 
 .row {

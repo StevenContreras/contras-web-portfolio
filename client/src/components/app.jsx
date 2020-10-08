@@ -21,7 +21,7 @@ class App extends React.Component {
   
   render() {
     return (
-      <div className="container-fluid">
+      <div class="plate">
         <nav className="row">
           <button className="col" value={0} onClick={e => this.handleClick(e)}>Home</button>
           <button className="col" value={1} onClick={e => this.handleClick(e)}>Projects</button>
