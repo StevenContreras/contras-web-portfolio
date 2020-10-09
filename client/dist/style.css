@@ -1,12 +1,21 @@
 body {
+  margin: 0;
+}
+
+.body {
   height: 100vh;
   display: flex;
-  justify-content: center;
   align-items: center;
-  background-color: #020326;
+  background-color: ivory;
+}
+
+.aside {
+  height: 100%;
+  width: 10%;
+  background-color: silver;
   background-image: 
     linear-gradient(
-      rgb(11, 2, 34) 5%,
+      dodgerblue 5%,
       rgb(138, 8, 8) 5%,
       rgb(138, 8, 8) 6%,
       mistyrose 6%,
@@ -29,7 +38,7 @@ body {
       mistyrose 27%,
       rgb(138, 8, 8) 27%,
       rgb(138, 8, 8) 28%,
-      rgb(11, 2, 34) 28%,
+      dodgerblue 28%,
       rgb(11, 2, 34) 38%,
       firebrick 38%,
       firebrick 39%,
@@ -54,7 +63,7 @@ body {
       firebrick 61%,
       firebrick 62%,
       rgb(11, 2, 34) 62%,
-      rgb(11, 2, 34) 72%,
+      dodgerblue 72%,
       rgb(138, 8, 8) 72%,
       rgb(138, 8, 8) 73%,
       mistyrose 73%,
@@ -77,16 +86,17 @@ body {
       mistyrose 94%,
       rgb(138, 8, 8) 94%,
       rgb(138, 8, 8) 95%,
-      rgb(11, 2, 34) 95%
+      dodgerblue 5%
     );
 }
 
 .plate {
-  background-color: sienna;
-  width: 90vw;
+  background-color: burlywood;
+  width: 60vw;
   height: 96vh;
-  border: 5px double saddlebrown;
+  border: 5px double peru;
   border-radius: 50px;
+  margin-left: 10vw;
 }
 
 .row {
