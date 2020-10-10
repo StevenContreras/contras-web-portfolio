@@ -5,7 +5,7 @@ function Home() {
     <header className="section">
       <h1 className="h">Steven Contreras</h1>
       <h2 className="h">Full Stack Software Engineer</h2>
-      <p className="content">Writer of spicy code. Lightning bender. Technomancer, Dark Mode Enthusiast (coming soon!). Always in the pursuit of learning and fortifying new skills.</p>
+      <p className="content">Southern California based writer of spicy code. Lightning bender. Technomancer, Dark Mode Enthusiast (coming soon!). Always in the pursuit of learning and fortifying new skills.</p>
     </header>
   )
 }

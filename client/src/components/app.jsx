@@ -35,11 +35,9 @@ class App extends React.Component {
             }
           </main>
           <footer>
-            <a className="cred" href="mailto:sfcontra@gmail.com">Email
-              <img name="mail"></img>
-            </a>
-            <a className="cred" href="https://github.com/StevenContreras">GitHub</a>
-            <a className="cred" href="https://www.linkedin.com/in/steven-contreras-358b4a73/">LinkedIn</a>
+            <a className="cred" href="mailto:sfcontra@gmail.com" alt="Email"/>
+            <a className="cred2" href="https://github.com/StevenContreras" alt="GitHub"/>
+            <a className="cred3" href="https://www.linkedin.com/in/steven-contreras-358b4a73/" alt="LinkedIn"/>
           </footer>
         </div>
       </div>
