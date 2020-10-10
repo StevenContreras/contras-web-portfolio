@@ -22,9 +22,7 @@ class App extends React.Component {
   render() {
     return (
       <div class="body">
-        <div class="aside">
-
-        </div>
+        <div class="aside"/>
         <div class="plate">
           <nav className="row">
             <button className="col" value={0} onClick={e => this.handleClick(e)}>Home</button>
@@ -37,7 +35,7 @@ class App extends React.Component {
             }
           </main>
           <footer>
-            <a className="cred" href="mailto:sfcontra@gmail.com">
+            <a className="cred" href="mailto:sfcontra@gmail.com">Email
               <img name="mail"></img>
             </a>
             <a className="cred" href="https://github.com/StevenContreras">GitHub</a>

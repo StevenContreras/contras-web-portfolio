@@ -1,3 +1,11 @@
+@font-face {
+  font-family: 'el_skeletoregular';
+  src: url('/font/elskeleto-zvegx-webfont.woff2') format('woff2'),
+       url('/font/elskeleto-zvegx-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
 body {
   margin: 0;
 }
@@ -7,6 +15,7 @@ body {
   display: flex;
   align-items: center;
   background-color: ivory;
+  overflow: auto;
 }
 
 .aside {
@@ -93,88 +102,106 @@ body {
 .plate {
   background-color: burlywood;
   width: 60vw;
-  height: 96vh;
-  border: 5px double peru;
-  border-radius: 50px;
+  height: 100%;
+  border-color: peru;
+  border-style: double;
+  border-width: 0 5px;
   margin-left: 10vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  overflow: auto;
 }
 
 .row {
-  margin: 0 auto 1vh;
-  width: 52vw;
+  margin: 1px 14%;
+  width: auto;
   padding: .1rem .1rem;
-  height: 2.4rem;
+  height: 2.5em;
+  display: flex;
   /* position: fixed; */
 
-  background-color: darkcyan;
+  /* Development Scaffolding */
+  /* background-color: darkcyan; */
 }
 
 .col{
-  margin: .1rem .1rem;
-  height: 2rem;
+  margin: .1rem;
+  height: auto;
+  flex: 1 0 auto;
   font-family: sans-serif;
-
+  font-family: 'el_skeletoregular', sans-serif;
   background-color: darkorange;
 }
 
 main {
     text-align: center;
-    margin: 1vh auto;
-    width: 52vw;
-    height: 81vh;
+    margin: 1vh 4%;
+    width: auto;
+    height: auto;
     padding: 1vh 1vw;
-
-    background-color: darkolivegreen;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  
+    /* Development Scaffolding */
+    /* background-color: darkolivegreen; */
 }
 
 .section {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin: 1vh 1vw;
-  padding: 1px;
-  height: 77vh;
-
-  background-color: slategray;
+  margin: auto;
+  padding: 2px;
+  height: auto;
+  
+  /* Development Scaffolding */
+  /* background-color: slategray; */
 }
 
 .h {
-  padding: .1rem;
-  margin: .1rem;
-  font-family: sans-serif;
+  padding: 2px;
+  margin: 2px;
+  font-family: 'el_skeletoregular', sans-serif;
   font-weight: bolder;
   color: cornsilk;
   height: auto;
-
-  background-color: royalblue;
+  color: black;
+  
+  /* Development Scaffolding */
+  /* background-color: royalblue; */
 }
 
-p {
-  font-family: sans-serif;
-  margin: .1rem;
 
-  background-color: darkgreen;
-}
 
 .content {
   margin: 2px;
   padding: 2px 30px;
   font-family: sans-serif;
+  height: auto;
+  font-family: 'el_skeletoregular', sans-serif;
 
-  background-color: mediumpurple;
+  /* Development Scaffolding */
+  /* background-color: mediumpurple; */
 }
 
 footer {
-  text-align: center;
-  margin: 1vh auto;
-  width: 52vw;
+  margin: 3px 14%;
+  width: auto;
+  height: 2em;
+  display: flex;
+  justify-content: center;
+  /* overflow: auto; */
 
-  background-color: indianred;
+  /* Development Scaffolding */
+  /* background-color: indianred; */
 }
 
 .cred {
-  margin: .2rem;
-  padding: .1rem;
+  margin: .3em;
+  padding: .2em;
 
-  background-color: purple;
+  /* Development Scaffolding */
+  /* background-color: purple; */
 }
